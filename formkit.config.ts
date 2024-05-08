@@ -1,8 +1,9 @@
 import { defaultConfig } from '@formkit/vue'
-import { rootClasses } from './formkit.theme'
+import { createMultiStepPlugin } from '@formkit/addons'
+import '@formkit/addons/css/multistep'
 
-export default defaultConfig({
-  config: {
-    rootClasses,
-  },
+const config = defaultConfig({
+  plugins: [createMultiStepPlugin()],
 })
+
+export default config
