@@ -1,6 +1,6 @@
-import config from 'formkit.config.ts'
+<script setup lang="ts">
 
-app.use(plugin, defaultConfig(config))
+</script>
 <template>
   <h1 class="text-3xl font-bold underline">
     Hello world!
