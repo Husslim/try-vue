@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import config from './formkit.config.ts'
-
-app.use(plugin, defaultConfig(config))
 
 </script>
+
+
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="justify-center flex bg-yellow-300 items-center h-screen">
+    <div class="text-4xl underline">
+      Hello 👋🏼
+    </div>
+  </div>
 </template>
