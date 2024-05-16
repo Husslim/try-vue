@@ -5,7 +5,7 @@ import { genesisIcons } from '@formkit/icons'
 export default defaultConfig({
   config: {
     rootClasses,
-    
+    plugins: [proPlugin],
     icons: {
       ...genesisIcons
     },
