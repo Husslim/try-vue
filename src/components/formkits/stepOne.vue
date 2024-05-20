@@ -1,0 +1,27 @@
+
+<template>
+  <FormKit type="multi-step">
+    <FormKit type="step" name="stepOne">
+      <FormKit
+      type="text"
+      label="Name"
+      prefix-icon="avatarMan"
+      validation="required"
+      />
+      <FormKit
+      type="email"
+      label="Email"
+      prefix-icon="email"
+      validation="required|email"
+      />
+      <FormKit
+      type="mask"
+      name="phone"
+      mask="(###) ###-####"
+      label="Phone"
+      prefix-icon="telephone"
+      validation="required"
+      />
+    </FormKit>
+  </FormKit>  
+</template>

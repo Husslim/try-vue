@@ -1,12 +1,10 @@
 <script setup lang="ts">
+// import stepOne from "./components/formkits/stepOne.vue"
+// import stepTwo from "./components/formkits/stepTwo.vue"
+// import stepThree from "./components/formkits/stepThree.vue"
+import intro from "./components/formkits/intro.vue"
+
 </script>
 <template>
-  <FormKit
-    type="text"
-    name="name"
-    id="name"
-    label="Name"
-    help="Your full name"
-    placeholder="“Jon Doe”"
-  />
+    <intro> </intro>
 </template>
