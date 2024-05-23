@@ -1,10 +1,15 @@
 <script setup lang="ts">
-import stepOne from "./components/formkits/stepOne.vue"
-import stepTwo from "./components/formkits/stepTwo.vue"
-import stepThree from "./components/formkits/stepThree.vue"
-import intro from "./components/formkits/intro.vue"
+
+import basicMultistep from './components/formkits/basicMultistep.vue'
+//import introMultistep from './components/formkits/introMultistep.vue';
+//import basicMultistep from './components/formkits/basicMultistep.vue'
+
 
 </script>
+
+
 <template>
- <intro> </intro>  
+ <basicMultistep>   sadfj
+
+ </basicMultistep>
 </template>

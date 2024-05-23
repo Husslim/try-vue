@@ -7,10 +7,10 @@ import './style.css'
 import config from '../formkit.config'
 
 const app = createApp(App)
-createApp(App).use(plugin, defaultConfig).mount('#app')
 
 app.use(createPinia())
 app.use(router)
 
-app.mount('#app')
 app.use(plugin, defaultConfig(config))
+
+app.mount('#app')
