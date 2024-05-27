@@ -9,6 +9,6 @@ import introMultistep from './components/formkits/introMultistep.vue'
 
 <template>
  <introMultistep> 
-fgsg
+
  </introMultistep>
 </template>
