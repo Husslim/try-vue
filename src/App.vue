@@ -1,12 +1,10 @@
 <script setup lang="ts">
+
+import IntroMultistep from './components/formkits/introMultistep.vue'
+
 </script>
+
+
 <template>
-  <FormKit
-    type="text"
-    name="name"
-    id="name"
-    label="Name"
-    help="Your full name"
-    placeholder="“Jon Doe”"
-  />
+    <IntroMultistep>    </IntroMultistep>
 </template>

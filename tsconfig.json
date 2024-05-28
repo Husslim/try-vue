@@ -12,7 +12,6 @@
     "skipLibCheck": true,
     "strict": false,
     "preserveValueImports": false,
-    "importsNotUsedAsValues": "remove",
     "verbatimModuleSyntax": true,
     "noImplicitAny": false,
 
@@ -22,8 +21,7 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": false,
     "sourceMap": true,
     
  
