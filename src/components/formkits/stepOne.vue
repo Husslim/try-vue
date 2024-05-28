@@ -13,12 +13,5 @@
       prefix-icon="email"
       validation="required|email"
     />
-    <FormKit
-      type="mask"
-      name="phone"
-      mask="(###) ###-####"
-      label="Phone"
-      prefix-icon="telephone"
-      validation="required"
-    />
+    
   </template>

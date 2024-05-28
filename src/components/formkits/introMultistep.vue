@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import StepOne from './stepOne.vue'
 import StepTwo from './stepTwo.vue'
 import StepThree from './stepThree.vue'
